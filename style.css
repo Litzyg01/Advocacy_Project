@@ -1,0 +1,64 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.image container {
+  position: relative;
+  display: inline-block;
+}
+
+.image-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+}
+
+.nav-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-list li {
+  margin: 0 1rem;
+}
+
+.nav-list a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-list a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 1rem;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+footer {
+  background-color: #333; 
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
